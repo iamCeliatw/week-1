@@ -162,6 +162,18 @@ header h1 {
     bottom: 0;
     width: 50%;
     background-color: rgb(255, 246, 233);
+    animation-name: MoveToLeft;
+    animation-duration: 1s; 
+  }
+  
+  
+  @keyframes MoveToLeft {
+    from {
+      left: 100%;
+    }
+    to {
+      left: 50%;
+    }
   }
 
   .hamburger {
